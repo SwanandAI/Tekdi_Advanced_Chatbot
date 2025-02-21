@@ -5,12 +5,19 @@
 .vscode/*
 
 gcp_credentials.json
-gcp.json
-.aws/*
+sample.env
+extraction.py
+docker-compose.yml
+.json
+config
+docker-compose.yaml
+new_indexer.py
 
-.pylintrc
 .pytest_cache
-__pycache__
 __pycache__/*
-.venv/*
 venv/*
+/llm/__pycache__/*
+/storage/__pycache__/*
+/translation/__pycache__/*
+/utils/__pycache__/*
+/vectorstores/__pycache__/*

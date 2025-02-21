@@ -45,12 +45,9 @@ class GoogleCloudTranslationClass(BaseTranslationClass):
 
         synthesis_input = texttospeech.SynthesisInput(text=text)
 
-        #set the accent
-        voice_name = language + os.environ.get("LANGUAGE_ACCENT", "-IN-Standard-A")
-
         # Use a female voice
         voice = texttospeech.VoiceSelectionParams(
-            language_code=language, name=voice_name, ssml_gender=gender
+            language_code=language, ssml_gender=gender
         )
 
         audio_config = texttospeech.AudioConfig(

@@ -16,7 +16,7 @@ Integrate "Activity Sakhi" effortlessly into your applications to revolutionize 
 
 ### Prerequisites
 
-- **Python 3.7 or higher**
+- **Python 3.8.10 **
 - Latest Docker
 - Redis
 
@@ -43,14 +43,14 @@ To use the code, you need to follow these steps:
 1. Clone the repository from GitHub: 
     
     ```bash
-    git clone https://github.com/DJP-Digital-Jaaduii-Pitara/sakhi-api-service.git
+    git clone https://github.com/SwanandAI/Tekdi_Advanced_Chatbot.git
     ```
    
     ```
    cd sakhi-api-service
    ```
 
-2. The code requires **Python 3.7 or higher** and some additional python packages. To install these packages, run the following command in your terminal:
+2. The code requires **Python 3.8.10** and some additional python packages. To install these packages, run the following command in your terminal:
 
     ```bash
     pip install -r requirements-dev.txt

@@ -47,7 +47,7 @@ To use the code, you need to follow these steps:
     ```
    
     ```
-   cd sakhi-api-service
+   cd Tekdi_Advanced_Chatbot
    ```
 
 2. The code requires **Python 3.8.10** and some additional python packages. To install these packages, run the following command in your terminal:
